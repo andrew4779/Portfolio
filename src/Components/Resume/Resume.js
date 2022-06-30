@@ -1,5 +1,5 @@
 import ScrollToTop from "react-scroll-to-top"
-import andrew_resume from "../../Assets/andrew_resume.pdf"
+import andrew_resume from "../../Assets/Andrew's Resume"
 
 const Resume = () => {
     return (
