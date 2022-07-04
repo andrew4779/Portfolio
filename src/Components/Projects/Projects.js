@@ -53,7 +53,7 @@ const Projects = () => {
             <div className="button4-flex">
               <p className="role1"> News app</p>
               <a
-                // href="https://drewawwards.herokuapp.com/"
+                href="https://stark-plateau-59179.herokuapp.com/"
                 className="btn button4"
                 target="_blank"
                 rel="noreferrer"
@@ -63,18 +63,44 @@ const Projects = () => {
             </div>
             <p className="role2 underline">Description</p>
             <p className="role3">
-              This is web application that allows you to view different news
-              accross the world.
+              A great application for anyone whose trying to get up-to-date on current affairs.
+              Get the latest news from 80,000 different sources. The app make use of the newsapi.org API.
             </p>
             <p className="role2 underline">Technologies</p>
             <p className="role3">
-              Python, Flask, Ajax, Javascript, HTML, Powershell.{" "}
+              Python, Flask, Flask-application, Javascript, HTML.{" "}
             </p>
           </div>
           <div className="description img-place">
             <img src={news} alt="" className="md-preview" />
           </div>
         </div>
+
+        <div className="experience d-flex mt-5">
+          <div className="role desc-proj">
+            <div className="button4-flex">
+              <p className="role1"> Neighbourhood</p>
+              <a
+                href="https://andrew4779.github.io/Neighbourhood/"
+                className="btn button4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Check it out!
+              </a>
+            </div>
+            <p className="role2 underline">Description</p>
+            <p className="role3">
+              This is a Django neighbourhood website application where a user must sign up first then update their profile.This will enable the user to join a hood of their choice.
+            </p>
+            <p className="role2 underline"> Technologies </p>
+            <p className="role3">Python, Django , HTML, Javascript </p>
+          </div>
+          <div className="description img-place">
+            <img src={Neighbourhood} alt="" className="md-preview" />
+          </div>
+        </div>
+
         
         <div className="experience d-flex mt-5">
           <div className="role desc-proj">
@@ -101,30 +127,6 @@ const Projects = () => {
             <img src={Quotes} alt="" className="md-preview" />
           </div>
         </div>
-
-        <div className="experience d-flex mt-5">
-          <div className="role desc-proj">
-            <div className="button4-flex">
-              <p className="role1"> Neighbourhood</p>
-              <a
-                href="https://andrew4779.github.io/Neighbourhood/"
-                className="btn button4"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Check it out!
-              </a>
-            </div>
-            <p className="role2 underline">Description</p>
-            <p className="role3">This is a Neighbourhood application</p>
-            <p className="role2 underline"> Technologies </p>
-            <p className="role3">Python, Django , HTML, Javascript </p>
-          </div>
-          <div className="description img-place">
-            <img src={Neighbourhood} alt="" className="md-preview" />
-          </div>
-        </div>
-
       </div>
       <ScrollToTop smooth color="#007bff" />
     </div>
