@@ -47,7 +47,6 @@ const Projects = () => {
           </div>
         </div>
 
-
         <div className="experience d-flex mt-5">
           <div className="role desc-proj">
             <div className="button4-flex">
@@ -101,6 +100,32 @@ const Projects = () => {
           </div>
         </div>
 
+        <div className="experience d-flex mt-5">
+          <div className="role desc-proj">
+            <div className="button4-flex">
+              <p className="role1"> E-Portal</p>
+              <a
+                href="http://e-portal.vercel.app/"
+                className="btn button4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Check it out!
+              </a>
+            </div>
+            <p className="role2 underline">Description</p>
+            <p className="role3">
+              This is a university school portal. Student Registration, Course Registration.
+            </p>
+            <p className="role2 underline">Technologies</p>
+            <p className="role3">
+              React JS, Javascript, HTML, SCSS.{" "}
+            </p>
+          </div>
+          <div className="description img-place">
+            <img src={Awwards} alt="" className="md-preview" />
+          </div>
+        </div>
         
         <div className="experience d-flex mt-5">
           <div className="role desc-proj">
