@@ -3,6 +3,7 @@ import Quotes from "../../Assets/Quotes.webp";
 import Awwards from "../../Assets/Awwards.webp";
 import Neighbourhood from "../../Assets/Neighbourhood.webp";
 import news from "../../Assets/news.webp";
+import eportal from "../../Assets/E-Portal.webp";
 
 const Projects = () => {
   return (
@@ -123,7 +124,7 @@ const Projects = () => {
             </p>
           </div>
           <div className="description img-place">
-            <img src={Awwards} alt="" className="md-preview" />
+            <img src={eportal} alt="" className="md-preview" />
           </div>
         </div>
         
