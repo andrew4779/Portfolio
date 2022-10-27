@@ -4,6 +4,7 @@ import Awwards from "../../Assets/Awwards.webp";
 import Neighbourhood from "../../Assets/Neighbourhood.webp";
 import news from "../../Assets/news.webp";
 import eportal from "../../Assets/E-Portal.webp";
+import nft from "../../Assets/Nft.webp";
 
 const Projects = () => {
   return (
@@ -63,8 +64,9 @@ const Projects = () => {
             </div>
             <p className="role2 underline">Description</p>
             <p className="role3">
-              A great application for anyone whose trying to get up-to-date on current affairs.
-              Get the latest news from 80,000 different sources. The app make use of the newsapi.org API.
+              A great application for anyone whose trying to get up-to-date on
+              current affairs. Get the latest news from 80,000 different
+              sources. The app make use of the newsapi.org API.
             </p>
             <p className="role2 underline">Technologies</p>
             <p className="role3">
@@ -91,7 +93,9 @@ const Projects = () => {
             </div>
             <p className="role2 underline">Description</p>
             <p className="role3">
-              This is a Django neighbourhood website application where a user must sign up first then update their profile.This will enable the user to join a hood of their choice.
+              This is a Django neighbourhood website application where a user
+              must sign up first then update their profile.This will enable the
+              user to join a hood of their choice.
             </p>
             <p className="role2 underline"> Technologies </p>
             <p className="role3">Python, Django , HTML, Javascript </p>
@@ -116,18 +120,42 @@ const Projects = () => {
             </div>
             <p className="role2 underline">Description</p>
             <p className="role3">
-              This is a university school portal. Student Registration, Course Registration.
+              This is a university school portal. Student Registration, Course
+              Registration.
             </p>
             <p className="role2 underline">Technologies</p>
-            <p className="role3">
-              React JS, Javascript, HTML, SCSS.{" "}
-            </p>
+            <p className="role3">React JS, Javascript, HTML, SCSS. </p>
           </div>
           <div className="description img-place">
             <img src={eportal} alt="" className="md-preview" />
           </div>
         </div>
-        
+
+        <div className="experience d-flex mt-5">
+          <div className="role desc-proj">
+            <div className="button4-flex">
+              <p className="role1"> NFT-Marketplace</p>
+              <a
+                href="http://nft-andrew4779.vercel.app/"
+                className="btn button4"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Check it out!
+              </a>
+            </div>
+            <p className="role2 underline">Description</p>
+            <p className="role3">
+              This is a display of nft's Marketplace
+            </p>
+            <p className="role2 underline">Technologies</p>
+            <p className="role3">React JS, Javascript, HTML, SCSS. </p>
+          </div>
+          <div className="description img-place">
+            <img src={nft} alt="" className="md-preview" />
+          </div>
+        </div>
+
         <div className="experience d-flex mt-5">
           <div className="role desc-proj">
             <div className="button4-flex">
