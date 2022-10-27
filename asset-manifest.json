@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.617ea4c1.css",
-    "main.js": "/Portfolio/static/js/main.e1cac87b.js",
+    "main.css": "/Portfolio/static/css/main.c44673ac.css",
+    "main.js": "/Portfolio/static/js/main.8a3f1cf9.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Neighbourhood.webp": "/Portfolio/static/media/Neighbourhood.5e66cc7e83929faef2f7.webp",
     "static/media/news.webp": "/Portfolio/static/media/news.e5dec27af9d3a0d5e0bd.webp",
     "static/media/Quotes.webp": "/Portfolio/static/media/Quotes.f693cf03eb60ffcc58f3.webp",
+    "static/media/Nft.webp": "/Portfolio/static/media/Nft.24ec36edec0331e584d9.webp",
     "static/media/Awwards.webp": "/Portfolio/static/media/Awwards.f376796218296126aed3.webp",
-    "static/media/Curriculum Vitae.pdf": "/Portfolio/static/media/Curriculum Vitae.a366389eaab307ba0684.pdf",
+    "static/media/Andrew's_Resume.pdf": "/Portfolio/static/media/Andrew's_Resume.2b13ae4cba252af9951d.pdf",
     "static/media/E-Portal.webp": "/Portfolio/static/media/E-Portal.5cac1d028178bf51f25d.webp",
     "static/media/me.webp": "/Portfolio/static/media/me.62ffb5964619dff54c95.webp",
     "index.html": "/Portfolio/index.html",
-    "main.617ea4c1.css.map": "/Portfolio/static/css/main.617ea4c1.css.map",
-    "main.e1cac87b.js.map": "/Portfolio/static/js/main.e1cac87b.js.map",
+    "main.c44673ac.css.map": "/Portfolio/static/css/main.c44673ac.css.map",
+    "main.8a3f1cf9.js.map": "/Portfolio/static/js/main.8a3f1cf9.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.617ea4c1.css",
-    "static/js/main.e1cac87b.js"
+    "static/css/main.c44673ac.css",
+    "static/js/main.8a3f1cf9.js"
   ]
 }
