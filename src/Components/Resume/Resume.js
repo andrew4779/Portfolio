@@ -12,6 +12,17 @@ const Resume = () => {
                         <button className="btn button3">DOWNLOAD CV</button>
                     </a>
                 </div>
+
+                <div className="experience d-flex">
+                    <div className="role">
+                        <p className="role1">OCT 2022 - Present</p>
+                        <p className="role2">Software engineer</p>
+                        <p className="role3"> iTalanta </p>
+                        <p className="role4"> Hybrid/Remote </p>
+                    </div>
+                    <div></div>
+                </div>
+
                 <div className="experience d-flex">
                     <div className="role">
                         <p className="role1">Jan 2022 - Mar 2022</p>
